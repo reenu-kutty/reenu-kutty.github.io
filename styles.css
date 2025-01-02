@@ -2,13 +2,13 @@
 
 
 body {
+    display: flex;
+    flex-direction: row;
     background-color: #1a1a1a;
     color: #EDB0F6;
     font-family: 'Montserrat', sans-serif;
     padding-left: 5vw;
     padding-top: 5vh;
-    display: flex;
-    flex-direction: row;
 }
 
 section {
