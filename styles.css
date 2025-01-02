@@ -2,8 +2,6 @@
 
 
 body {
-    display: flex;
-    flex-direction: row;
     background-color: #1a1a1a;
     color: #EDB0F6;
     font-family: 'Montserrat', sans-serif;
@@ -22,5 +20,30 @@ img {
     padding-right: 5vw;
     padding-bottom: 5vh;
     padding-top: 5vh;
+    border-radius: 50%;
 }
 
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 20vw;
+    height: 10vh;
+    background: linear-gradient(90deg, #80d3ff, #6d67ff);
+    color: #f8c8ff;
+    border-radius: 1em;
+    font-size: 1.4em;
+    box-shadow: #000000 0.5em 0.5em 0 0;
+    transition: background 0.5s ease, transform 0.5s ease;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #b5e4ff, #9b98ff);
+    font-weight: bold;
+    transform: scale(1.05);
+}
